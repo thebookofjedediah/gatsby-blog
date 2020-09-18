@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet"
 const SEO = ({ title, description }) => {
     return (
         <Helmet 
-            title={`${title}  - Blog Template`}
+            title={`${title}  - Jedediah Arnold`}
             meta={[
                 {
                     name: `description`,
