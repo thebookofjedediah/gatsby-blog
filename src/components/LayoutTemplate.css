@@ -78,7 +78,7 @@ h5 { font-size: 1em; line-height: .85em; margin-bottom: 10px; }
 /* ---- Re-usable Elements ---- */
 /* Layout */
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -100,7 +100,7 @@ h5 { font-size: 1em; line-height: .85em; margin-bottom: 10px; }
   justify-content: space-between;
 }
 .body-columns .main-column {
-  width: 70%;
+  width: 100%;
 }
 .body-columns .side-column {
   width: 25%;

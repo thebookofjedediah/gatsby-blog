@@ -35,6 +35,11 @@ export default (props) => (
                     properties {
                         referenceName
                     }
+                    linkedContent_agilityAuthor {
+                        customFields {
+                          name
+                        }
+                    }
                 }
             }
           }
@@ -74,6 +79,7 @@ const Post = ({ post }) => {
             <Link to={post.sitemapNode.pagePath}>
                 <PostImage image={post.customFields.imageLocalImg} label={post.customFields.image ? post.customFields.image.label : `Post Image`} />
                 <h2>{post.customFields.title}</h2>
+                <p>By {post.linkedContent_agilityAuthor.customFields.name}</p>
                 <PostExceprt htmlContent={post.customFields.details} />
             </Link>
         </div>

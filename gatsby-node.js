@@ -15,7 +15,7 @@ exports.createResolvers = (args) => {
             
             //[Not Implemented]
             //if we had a linked content field for 'author', this is how we'd get the author for this post in a single GraphQl query
-            //linkedContent_agilityAuthor: agility.getLinkedContentItem({ type: 'agilityAuthor', linkedContentFieldName: 'author' })
+            linkedContent_agilityAuthor: agility.getLinkedContentItem({ type: 'agilityAuthor', linkedContentFieldName: 'author' })
         },
 
         //[Not Implemented]
