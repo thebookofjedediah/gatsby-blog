@@ -2,10 +2,12 @@ import React from 'react';
 import './Jumbotron.css'
 
 const FeaturedPosts = ({ item }) => {
-
     let posts = item.customFields.posts.map(post => {
         return (
-            <li>{post.customFields.title}</li>
+            <div className="container">
+                <p>{post.customFields.title}</p>
+            </div>
+            
         )
     })
 
