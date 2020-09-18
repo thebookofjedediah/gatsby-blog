@@ -152,6 +152,10 @@ h5 { font-size: 1em; line-height: .85em; margin-bottom: 10px; }
   margin-top: 20px;
   width: 100%;
 }
+.post-details {
+  max-width: 800px;
+  margin: 30px auto;
+}
 
 section {
   margin-bottom: 1rem;
